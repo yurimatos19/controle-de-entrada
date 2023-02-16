@@ -1,0 +1,63 @@
+/* Define a cor laranja */
+:root {
+    --cor-laranja: #f16e00;
+  }
+  
+  /* Estiliza o formulário */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    font-size: 24px;
+    background-color: var(--cor-laranja);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d95700;
+  }
+  
+  /* Estiliza a imagem capturada pela câmera */
+  #canvas {
+    display: none;
+  }
+  
+  #imagem {
+    margin: 20px 0;
+    border: 2px solid var(--cor-laranja);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
